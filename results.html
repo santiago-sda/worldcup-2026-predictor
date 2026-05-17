@@ -708,27 +708,27 @@
 <!-- ── Iconic moments strip ──────────────────────────────────────────────────── -->
 <div class="moments-strip">
   <div class="moments-strip-inner">
-    <div class="moment-item"><img src="images/iconic/moment1.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment2.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment3.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment4.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment5.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment6.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment7.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment8.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment9.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment10.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment1.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment2.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment3.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment4.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment5.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment6.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment7.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment8.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment9.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment10.jpg" alt="Iconic World Cup moment" /></div>
     <!-- duplicate set for seamless loop -->
-    <div class="moment-item"><img src="images/iconic/moment1.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment2.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment3.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment4.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment5.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment6.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment7.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment8.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment9.jpg" alt="Iconic World Cup moment" /></div>
-    <div class="moment-item"><img src="images/iconic/moment10.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment1.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment2.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment3.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment4.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment5.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment6.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment7.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment8.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment9.jpg" alt="Iconic World Cup moment" /></div>
+    <div class="moment-item"><img src="./moment10.jpg" alt="Iconic World Cup moment" /></div>
   </div>
 </div>
 
@@ -1931,7 +1931,7 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
   }
   // Build both sets (original + duplicate for seamless loop)
   strip.innerHTML = [...images, ...images]
-    .map(f => `<div class="moment-item"><img src="images/iconic/${f}" alt="Iconic World Cup moment" /></div>`)
+    .map(f => `<div class="moment-item"><img src="./${f}" alt="Iconic World Cup moment" /></div>`)
     .join('');
 })();
 </script>
